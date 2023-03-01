@@ -1,13 +1,142 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hero {
+    height: 80vh;
+    
+    background-image: url('./Image/delivery-staff-ride-motorcycles-shopping-concept_1150-34879.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(148, 243, 248); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+}
+
+.Order-Now{
+    margin-left: 300px;
+}
+
+.heading-001{
+    background-color: rgb(148, 243, 248);
+    text-align: center;
+    /* color: white; */
+    
+    
+}
+
+.Card-container{
+  
+    background-color: rgb(148, 243, 248);
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+.cards-item{
+    margin: 10px 20px 10px 20px;
+    height: 300px;
+    width: 250px;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.cart-container {
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cart-items {
+    width: 60%;
+}
+
+.cart-item {
+    height: 250px;
+    padding: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.remove-btn {
+    border: none;
+    background-color: #D30000;
+    padding: 10px 60px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.cart-item h1 {
+    font-size: 32px;
+}
+
+.cart-item img {
+    height: 150px;
+}
+
+.cart-item span {
+    margin-left: 50px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bill-section {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+.bill-section h1 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.pay-btn {
+    border: none;
+    background-color: #36008E;
+    padding: 10px 80px;
+    color: #fff;
+    border-radius: 20px;
+    width: 80%;
+}  
+button{
+    cursor: pointer;
 }
